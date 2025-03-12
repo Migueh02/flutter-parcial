@@ -5,6 +5,8 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -18,6 +20,8 @@ class MyApp extends StatelessWidget {
 }
 
 class WordCounter extends StatefulWidget {
+  const WordCounter({super.key});
+
   @override
   _WordCounterState createState() => _WordCounterState();
 }
@@ -111,12 +115,12 @@ class _WordCounterState extends State<WordCounter> {
             // Botón para contar palabras
             ElevatedButton(
               onPressed: _countWords,
+              style: ElevatedButton.styleFrom(
+                padding: EdgeInsets.symmetric(vertical: 15),
+              ),
               child: Text(
                 'Contar Palabras',
                 style: TextStyle(fontSize: 16),
-              ),
-              style: ElevatedButton.styleFrom(
-                padding: EdgeInsets.symmetric(vertical: 15),
               ),
             ),
             SizedBox(height: 20),
