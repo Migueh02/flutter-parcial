@@ -1,6 +1,12 @@
-### Documentación Extensa del Código: Contador de Palabras Detallado en Flutter
+### Contador de Palabras Detallado en Flutter
 
-Este documento explica en detalle el funcionamiento del código de una aplicación Flutter que cuenta palabras de un texto ingresado por el usuario. La aplicación no solo cuenta las palabras, sino que también proporciona información adicional, como el número total de palabras, la palabra más frecuente y la menos frecuente.
+
+
+<a> Este documento explica en detalle el funcionamiento del código de una aplicación Flutter que cuenta palabras de un texto ingresado por el usuario. La aplicación no solo cuenta las palabras, sino que también proporciona información adicional, como el número total de palabras, la palabra más frecuente y la menos frecuente.<a>
+
+<p align="center">
+  <img src="Screenshot 2025-03-11 at 19-18-43 Contador de Palabras Detallado.png" alt="Captura de pantalla" width="100">
+</p>
 
 ---
 
